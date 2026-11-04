@@ -1,0 +1,15 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "categories": {
+    "correctness": "error"
+  },
+  "rules": {
+    "@typescript-eslint/no-explicit-any": "error",
+    "eqeqeq": ["error", "always"],
+    "prefer-const": "error",
+    "no-debugger": "error"
+  },
+  "env": {
+    "node": true
+  }
+}
